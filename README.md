@@ -8,7 +8,12 @@ This is the bandwidth calculator for the Enterprise services provided by ISP, th
 3. Copy paste the command to the device!
 
 Elink - Internet Direct service
+
 Eclear - L2VPN point to point lease line service
+
 Eadvance - L2VPN point to multipoint lease line service
+
 IPVPN - L3VPN IPVPN service
+
 VOIP - voice over IP service
+
