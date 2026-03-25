@@ -17,3 +17,12 @@ IPVPN - L3VPN IPVPN service
 
 VOIP - voice over IP service
 
+SG / CoS for Each Product as below:
+
+| Product      | DSCP            | MPLS EXP | General SG / CoS               | Traffic Type     |
+| ------------ | --------------- | -------- | ------------------------------ | ---------------- |
+| **ECLEAR**   | Not set         | **4**    | **High Priority Data**         | Enterprise L2VPN |
+| **ELINE**    | **0 (Default)** | **0**    | **Best Effort**                | Internet / DIA   |
+| **EADVANCE** | Not set         | **4**    | **High Priority Data**         | VPLS             |
+| **IPVPN**    | **AF11**        | **4**    | **Business Data**              | L3VPN            |
+| **VOIP**     | **EF**          | **2**    | **Real-Time / Voice Priority** | VoIP             |
