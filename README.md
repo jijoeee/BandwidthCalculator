@@ -1,4 +1,4 @@
-# BandwidthCalculatorviaExcel
+# Enterprise Service/Product Bandwidth Calculator via Excel
 For ISP Enterprise services bandwidth calculator via excel.
 
 This is the bandwidth calculator for the Enterprise services provided by ISP, this tool will then generate the QOS command line for three devices with different vendor (Huawei & Cisco) by using excel formula.
